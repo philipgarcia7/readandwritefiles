@@ -18,8 +18,8 @@ for record in employee_file:
     bonper = float(record[4])
     bonus = salary * bonper
 
-    print("Bonus: $", bonus)
+    print("Bonus: $", f"{bonus:.2f}")
 
     total_pay = bonus + salary
-    print("Total Pay: $", total_pay)
+    print("Total Pay: $", f"{total_pay:.2f}")
     input("Press enter to continue to next employee data:")
