@@ -13,3 +13,4 @@ for record in customer_file:
     n += 1
 print("Customer Count:", n)
 outfile.close()
+asdfdsf
